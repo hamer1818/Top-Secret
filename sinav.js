@@ -150,7 +150,7 @@
 // ile gerçeklestirebiliriz?
 
 // sayilar.map((elem)=>{
-//     elem=elem/4; 
+//     elem=elem/4;
 // });
 
 
@@ -182,7 +182,7 @@
 //     console.log(`k nin değeri: ${k}`);
 //     k++;
 // }
-// ukaradaki kodun calsması icin asağıdaki hangi tanamlama islemi
+// yukaradaki kodun calsması icin asağıdaki hangi tanımlama islemi
 // yapilmaladır?
 //çalışması için for(k=0;k<10;) undefined
 
@@ -195,8 +195,6 @@
     // ukaradaki kodun 10 defa calsması icin asağıdaki hangi tanamlama islemi
     // yapilmaladır? 
     //for(let k =0;k < 10;)
-
-// aşağıdakilerden hangisi sonsuz döngüdür?
 
 
 //29-)Aşağıdakilerden hangisi sonsuz döngüdür?
@@ -239,7 +237,8 @@
 
 //terminale hangi değerler basılır?
 
-// iki kez 16 basılır çünkü local scope kullanılmamış hali hazırdaki değişkenin değeri değiştirilmiştir.
+// iki kez 16 basılır çünkü local scope kullanılmamış hali hazırdaki 
+// değişkenin değeri değiştirilmiştir.
 
 
 //33-)
@@ -265,6 +264,7 @@
 
 //Yukarada tanımlanan nesne/json yapis1ndaki elocihazlar ekrana
 // bastirildiğında nasil bir bilgi çikar?
+// console.log(bilgi.eloCihazlar);
 
 // { bilgisayar: { marka: 'HP' }, telefon: { marka: 'Samsung' } }
 
