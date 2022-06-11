@@ -1,296 +1,367 @@
-// 1-) NodeJS de aşşağıdakilerin hangisi bir fonksiyon tanımlamasıdır?
+/** 
+1-) NodeJS de aşşağıdakilerin hangisi bir fonksiyon tanımlamasıdır?
 
-// function a(){
-//     1+2;
-// }
+function a(){
+    1+2;
+}
 
-// 2-) NodeJS de aşşağıdakilerin hangisi tek satırda tanımlanır?
+2-) NodeJS de aşşağıdakilerin hangisi tek satırda tanımlanır?
 
-// var f=(x) => (x*x+2);
+var f=(x) => (x*x+2);
 
-// 3-) Bir fonksiyonda hesaplanan değeri geri döndürmek için hangisi kullanılır
+3-) Bir fonksiyonda hesaplanan değeri geri döndürmek için hangisi kullanılır
 
-//     return
+    return
 
 
-// 4-)NodeJS de terminale bilgi amacıyla yazdrımak için aşağıdakilerden hangisi kullanılmalıdır?
+4-)NodeJS de terminale bilgi amacıyla yazdrımak için aşağıdakilerden hangisi kullanılmalıdır?
 
-//console.log();
+console.log();
 
-//5-) ( 21 + 3 / 2 ) işleminin sonucu kaçtır?
+5-) ( 21 + 3 / 2 ) işleminin sonucu kaçtır?
 
-//22.5
+22.5
 
-//6-) ( 13 + ( 12 + 8 ) / 2 * 4 ) işleminin sonucu kaçtır?
+6-) ( 13 + ( 12 + 8 ) / 2 * 4 ) işleminin sonucu kaçtır?
 
-//53
+53
 
-//7-) if( 1 == '1') işleminin sonucu nedir?
+7-) if( 1 == '1') işleminin sonucu nedir?
 
-//true // 2 eşittir de tırnakların içine bakılır değerler aynı değere dönüştürülür
+true // 2 eşittir de tırnakların içine bakılır değerler aynı değere dönüştürülür
 
-//8-) if( 1 === '1') işleminin sonucu nedir?
+8-) if( 1 === '1') işleminin sonucu nedir?
 
-//false // 3 eşittirde tırnakların içindeki değere bakılır ve değerin türüne bakılır
+false // 3 eşittirde tırnakların içindeki değere bakılır ve değerin türüne bakılır
 
-//9-) aşağıdakilerden hangisi satır içi karşılaştırma işlmeidir?
+9-) aşağıdakilerden hangisi satır içi karşılaştırma işlmeidir?
 
-// sonuc = ( 5 > 4) ? 'doğru' : 'Yanlış';
+sonuc = ( 5 > 4) ? 'doğru' : 'Yanlış';
 
-//10-) beş varklı durum kontrol edilmek istenirse hangi kalıbı kullanmalıyız
+10-) beş varklı durum kontrol edilmek istenirse hangi kalıbı kullanmalıyız
 
-// if(....){
-//     ...
-// }else if(...){
-//     ...
-// }else if(...){
-//     ...
-// }else if(...){
-//     ...
-// }else if(...){
-//     ...
-// }else{
-//     ...
-// }
+if(....){
+    ...
+}else if(...){
+    ...
+}else if(...){
+    ...
+}else if(...){
+    ...
+}else if(...){
+    ...
+}else{
+    ...
+}
 
-//11-)event.emitter kullanılarak yapılan kodlamada dinleyici ve gönderici 
-//sırası aşağıdakilerden hangisidir?
+11-)event.emitter kullanılarak yapılan kodlamada dinleyici ve gönderici 
+sırası aşağıdakilerden hangisidir?
 
-// 1. on ifadesi dinleyici
+1. on ifadesi dinleyici
 
-// 2. emit ifadesi gönderici
+2. emit ifadesi gönderici
 
-//12-) NodeJs 'de modul olarak tanamlanan kodlarda bir fonksiyon
-// dışaraya aktarılmak istenirse başında nasıl bir ifade olmalidir?
+12-) NodeJs 'de modul olarak tanamlanan kodlarda bir fonksiyon
+dışaraya aktarılmak istenirse başında nasıl bir ifade olmalidir?
 
-// export;
+export;
 
-// 13-) events. EventEmitter saraszyla mesaj alma ve gonderme islemleri
-// hangi fonksiyonlarla gerceklestirilir?
+13-) events. EventEmitter saraszyla mesaj alma ve gonderme islemleri
+hangi fonksiyonlarla gerceklestirilir?
 
-// 1. on ifadesi dinleyici
+1. on ifadesi dinleyici
 
-// 2. emit ifadesi gönderici
+2. emit ifadesi gönderici
 
-// 14-) NodesJS'de bir modulde bazi parametreler ve fonksiyonlara
-// hangi ifade ile disariya aktarabiliriz?
+14-) NodesJS'de bir modulde bazi parametreler ve fonksiyonlara
+hangi ifade ile disariya aktarabiliriz?
 
-//export ifadesi
+export ifadesi
 
-// 15-) NodeJs'de bir modul icinde tanımlı olan bisiklet adli class 'ımzı
-// sadece dogrudan disariya aktarma işlemi nasıl yapalır?
+15-) NodeJs'de bir modul icinde tanımlı olan bisiklet adli class 'ımzı
+sadece dogrudan disariya aktarma işlemi nasıl yapalır?
 
-// module.exports=bisiklet;
+module.exports=bisiklet;
 
-// class araba{
-//     constructor () {...}}
-// 16-) 
-//  const _araba=require("./araba");
-// Yukaridaki kodlar ile alınan_araba class'1ndan bir nesne nas1l
-// olusturulur?
+class araba{
+    constructor () {...}}
+16-) 
+ const _araba=require("./araba");
+Yukaridaki kodlar ile alınan_araba class'1ndan bir nesne nas1l
+olusturulur?
 
 
 
-// class araba{
-//     constructor (model,motorHacmi) {...}}
-// 17-) const araba=require (" ./araba") ;
-// Yukaridaki kodlar ile alınan _araba class'1ndan bir nesne nas1l
-// olusturulur?
+class araba{
+    constructor (model,motorHacmi) {...}}
+17-) const araba=require (" ./araba") ;
+Yukaridaki kodlar ile alınan _araba class'1ndan bir nesne nas1l
+olusturulur?
 
 
 
 
-// class araba{
-//     vitesDegistir(vitesNo){...}
+class araba{
+    vitesDegistir(vitesNo){...}
 
-// 18-)
-// class araba
-// vitesDegistir(vitesno){...)
-// const araba=require(". /araba");
-// Yukaradaki kodlar ile arabanın vites değiştirmesi istenirse
-// nasl kodlama ile yapalır?
+18-)
+class araba
+vitesDegistir(vitesno){...)
+const araba=require(". /araba");
+Yukaradaki kodlar ile arabanın vites değiştirmesi istenirse
+nasl kodlama ile yapalır?
 
 
-// 19-)
-// let i=0;
-// while(i < 10){
-//     console.log(`Dizi indisi ${i} `)
-//     i+=2;
-// }
+19-)
+let i=0;
+while(i < 10){
+    console.log(`Dizi indisi ${i} `)
+    i+=2;
+}
 
-//yukarıdaki satırı çalıştırıldığnda ekrana kaç kez yazı yazar?  {5}
+yukarıdaki satırı çalıştırıldığnda ekrana kaç kez yazı yazar?  {5}
 
 
-//20-)
-// for (let i=10; i <10; i+=3){
-//     console.log(` Dizi indisi : ${i}` );
-// }
-// Yukaradaki kodlar calıştarıldigında, console. log satirı kaç defa
-// ekrana yazı yazar?  {0}
+20-)
+for (let i=10; i <10; i+=3){
+    console.log(` Dizi indisi : ${i}` );
+}
+Yukaradaki kodlar calıştarıldigında, console. log satirı kaç defa
+ekrana yazı yazar?  {0}
 
 
-//21-)
-// for (let i=10; i > 0; i+=3){
-//     console.log(` Dizi indisi : ${i}` );
-// }
-// Yukaradaki kodlar calıştarıldigında, console. log satirı kaç defa
-// ekrana yazı yazar? {Unlimated Loop}
+21-)
+for (let i=10; i > 0; i+=3){
+    console.log(` Dizi indisi : ${i}` );
+}
+Yukaradaki kodlar calıştarıldigında, console. log satirı kaç defa
+ekrana yazı yazar? {Unlimated Loop}
 
 
 
-//22-)
-// for (let i=10; i > 0; i-=3){
-//     console.log(` Dizi indisi : ${i}` );
-// }
-// Yukaradaki kodlar calıştarıldigında, console. log satirı kaç defa
-// ekrana yazı yazar?  {4}
+22-)
+for (let i=10; i > 0; i-=3){
+    console.log(` Dizi indisi : ${i}` );
+}
+Yukaradaki kodlar calıştarıldigında, console. log satirı kaç defa
+ekrana yazı yazar?  {4}
 
-// 23-) sayilar adl1 bir dizide map fonksiyonu kuulanalarak
-// elemanlaran 4 bölünerek değiştirilmesi için asağıdaki kodlarandan hangisi
-// ile gerçeklestirebiliriz?
+23-) sayilar adl1 bir dizide map fonksiyonu kuulanalarak
+elemanlaran 4 bölünerek değiştirilmesi için asağıdaki kodlarandan hangisi
+ile gerçeklestirebiliriz?
 
-// sayilar.map((elem)=>{
-//     elem=elem/4;
-// });
+sayilar.map((elem)=>{
+    elem=elem/4;
+});
 
 
-// 24-) sayilar adlı bir dizide çift sayılara sadece yeni bir
-// diziye toplamak için aşağıdaki kodlardan hangisi ile
-// gerceklestirilir?
+24-) sayilar adlı bir dizide çift sayılara sadece yeni bir
+diziye toplamak için aşağıdaki kodlardan hangisi ile
+gerceklestirilir?
 
-// ciftsayilar = sayilar.filter((elem)=>{
-//     return ((elem%2)==0);
-// });
+ciftsayilar = sayilar.filter((elem)=>{
+    return ((elem%2)==0);
+});
 
-// 25-) 3 farklı class 'an tanimlandiğa bir modulde
-// asağidaki hangi islem ile dasaradan kullanaılmas1 sağlanmıs
-// olunur
+25-) 3 farklı class 'an tanimlandiğa bir modulde
+asağidaki hangi islem ile dasaradan kullanaılmas1 sağlanmıs
+olunur
 
-// module.exports(1.class,2.class,3.class)
+module.exports(1.class,2.class,3.class)
 
-// 26-) module.exports isleminde araba adla class dişaridan
-// kullanalmak istendiğinde ismi tofas olarak gözükebilmesi
-// icin asağadaki hangi tanimlama ile gerçeklestirilir?
+26-) module.exports isleminde araba adla class dişaridan
+kullanalmak istendiğinde ismi tofas olarak gözükebilmesi
+icin asağadaki hangi tanimlama ile gerçeklestirilir?
 
-// module.exports(tofas:araba)
+module.exports(tofas:araba)
 
 
 
-// 27-)
-// for(;k < 10;){
-// //  islemler süslü parantezler içersinde gerçeklestirilir.
-//     console.log(`k nin değeri: ${k}`);
-//     k++;
-// }
-// yukaradaki kodun calsması icin asağıdaki hangi tanımlama islemi
-// yapilmaladır?
-//çalışması için for(k=0;k<10;) undefined
+27-)
+for(;k < 10;){
+//  islemler süslü parantezler içersinde gerçeklestirilir.
+    console.log(`k nin değeri: ${k}`);
+    k++;
+}
+yukaradaki kodun calsması icin asağıdaki hangi tanımlama islemi
+yapilmaladır?
+çalışması için for(k=0;k<10;) undefined
 
-// 28-)
-// for(;k < 10;){
-//     // islemler süslü parantezler içersinde gerçeklestirilir.
-//         console.log(`k nin değeri: ${k}`);
-//         k++;
-//     }
-    // ukaradaki kodun 10 defa calsması icin asağıdaki hangi tanamlama islemi
-    // yapilmaladır? 
-    //for(let k =0;k < 10;)
+28-)
+for(;k < 10;){
+    // islemler süslü parantezler içersinde gerçeklestirilir.
+        console.log(`k nin değeri: ${k}`);
+        k++;
+    }
+    ukaradaki kodun 10 defa calsması icin asağıdaki hangi tanamlama islemi
+    yapilmaladır? 
+    for(let k =0;k < 10;)
 
 
-//29-)Aşağıdakilerden hangisi sonsuz döngüdür?
+29-)Aşağıdakilerden hangisi sonsuz döngüdür?
 
-// for(;true;){}
-// while (1){}  
-// for(;1;){}
-//while(true){}
+for(;true;){}
+while (1){}  
+for(;1;){}
+while(true){}
 
-//30-) Bir ifadeyi sabit tanımlamak istersek ne kullanmalıyız?
+30-) Bir ifadeyi sabit tanımlamak istersek ne kullanmalıyız?
 
-// const
+const
 
-//31-)
+31-)
 
-// let b=0;
+let b=0;
 
-// {
-//     let b=16;
-//     console.log(b);
-// }
+{
+    let b=16;
+    console.log(b);
+}
 
-// console.log(b);
+console.log(b);
 
-//terminale hangi değerler basılır?
+terminale hangi değerler basılır?
 
-//16 ve 0 çünkü b nin 16 olma sebebi local scope dur.
+16 ve 0 çünkü b nin 16 olma sebebi local scope dur.
 
 
-//32-)
+32-)
 
-// let b=0;
+let b=0;
 
-// {
-//     b=16;
-//     console.log(b);
-// }
+{
+    b=16;
+    console.log(b);
+}
 
-// console.log(b);
+console.log(b);
 
-//terminale hangi değerler basılır?
+terminale hangi değerler basılır?
 
-// iki kez 16 basılır çünkü local scope kullanılmamış hali hazırdaki 
-// değişkenin değeri değiştirilmiştir.
+iki kez 16 basılır çünkü local scope kullanılmamış hali hazırdaki 
+değişkenin değeri değiştirilmiştir.
 
 
-//33-)
+33-)
 
-// let bilgi={
-//     adi:'Gökhan',
-//     soyadi:'Çalış',
-//     numarasi:21900000207,
-//     aldigidersler:[
-//         'Türkçe','TürkDili','İngilizce',
-//     ],
+let bilgi={
+    adi:'Gökhan',
+    soyadi:'Çalış',
+    numarasi:21900000207,
+    aldigidersler:[
+        'Türkçe','TürkDili','İngilizce',
+    ],
 
-//     eloCihazlar:{
-//             bilgisayar: {
-//                 marka:'HP'
-//             },
-//             telefon:{
-//                 marka:'Samsung'
-//             }
-//     },            
-// }
+    eloCihazlar:{
+            bilgisayar: {
+                marka:'HP'
+            },
+            telefon:{
+                marka:'Samsung'
+            }
+    },            
+}
 
 
-//Yukarada tanımlanan nesne/json yapis1ndaki elocihazlar ekrana
-// bastirildiğında nasil bir bilgi çikar?
-// console.log(bilgi.eloCihazlar);
+Yukarada tanımlanan nesne/json yapis1ndaki elocihazlar ekrana
+bastirildiğında nasil bir bilgi çikar?
+console.log(bilgi.eloCihazlar);
 
-// { bilgisayar: { marka: 'HP' }, telefon: { marka: 'Samsung' } }
+{ bilgisayar: { marka: 'HP' }, telefon: { marka: 'Samsung' } }
 
 
-//33-)
+34-)
 
-// let bilgi={
-//     adi:'Gökhan',
-//     soyadi:'Çalış',
-//     numarasi:21900000207,
-//     aldigidersler:[
-//         'Türkçe','TürkDili','İngilizce',
-//     ],
+let bilgi={
+    adi:'Gökhan',
+    soyadi:'Çalış',
+    numarasi:21900000207,
+    aldigidersler:[
+        'Türkçe','TürkDili','İngilizce',
+    ],
 
-//     eloCihazlar:{
-//             bilgisayar: {
-//                 marka:'HP'
-//             },
-//             telefon:{
-//                 marka:'Samsung'
-//             }
-//     },            
-// }
+    eloCihazlar:{
+            bilgisayar: {
+                marka:'HP'
+            },
+            telefon:{
+                marka:'Samsung'
+            }
+    },            
+}
 
 
 //Yukarada tanımlanan nesne/json yapis1ndaki telefon değerlerine nasıl ulaşırız?
 
 
-// console.log(bilgi.eloCihazlar.telefon)
+// console.log(bilgi.eloCihazlar.telefon)*/
+
+/**
+ * 35-) Komut satırında vue projeleri hazırlıyabilmek için hangi komut kullanılmalıdır.
+ * 
+ * npm i -g @vue/cli
+ * 
+ * 36-) Herhangi bir klasöre gelip içerisinde vue projesi için aşağıdaki komutlardan hangisini kullanılırsınız?
+ * 
+ * vue create .
+ * 
+ * 37-) Klasör içerisinde varsayılan bir kurulumla vue projesi oluşturulmuştur. Projemizi test etmek için komut satırında aşağıdaki komutlardan hangisi kullanılır?
+ * 
+ * npm run serve
+ * 
+ * 38-) Import ile içeriye MerhabaDunya olarak alınan vue component dosyasının kayıt edilmesi için script kısmında nerede tanımlarız?
+ * 
+ * components
+ * 
+ * 39-) Import ile içeriye MerhabaDunya olarak alınan vue component dosyasının Mehmet Selim Adıgüzel olarak yeniden isimlendirerek nasıl kayıdederiz?
+ * 
+ * 
+ * 
+ * 40-) Bir vue komponentine isimlendirme işlemi aşağıdakilerden hangisi ile yapılır?
+ * 
+ * name
+ * 
+ * 41-) NotOrtalamasi vue komponentine isim verilmemeiştir. Bu durumda import işlemi aşağıdakilerde hangisidir?
+ * 
+ * import NotOrtalamsı
+ * 
+ * 42-) NotOrtalamasi vue komponentine isim verilmiştir. Bu durumda import işlemi aşağıdakilerde hangisidir?
+ * 
+ * import NotOrtalaması from konumu ???
+ * 
+ * 43-) Bir komponente mesaj, mevcut adlı değerler gönderilmek istenirse, komponent içine aşağıdakilerden hangisi ile tanımlarız?
+ * 
+ * props...
+ * 
+ * 44-) Vue de komponentler hangi klasör altında toplanmalıdır?
+ * 
+ * src
+ * 
+ * 45-)Html tag leri arasında mesaj = "Merhaba" adlı bir değişken değerinin kullanılması istenirse aşağıdakilerden hangisi doğru yazmış olur?
+ * 
+ * : name= "mesaj"
+ * 
+ * 46-) Komponentde kullanılmak amacıyla değişkenlerimizi nerede tanımlarız?
+ * 
+ * data(){
+ *  return{
+ *      ....
+ *  }
+ * }
+ * 
+ * 47-) Komponentlerimizde aşağıdakilerden en az hangisi bulunmak zorundadır?
+ * 
+ * template
+ * 
+ * 48-) Vue de komponentlerin temel yapısı aşağıdakilerden hangisidir?
+ * 
+ * template,script,style
+ * 
+ * 49-) Bir komponentde sadece ona ait stiller tanımlaması yapılmak istenirse aşağıdakilerden hangisi doğru kullanılmıştır?
+ * 
+ * <style scoped>
+ * 
+ * 50-)Komponentlerimizde, bir değişkenin bir işlem yaparak kullanmak istediğimzde hangi ksıımda tanımlamamız gerekir?
+ * 
+ * computed
+ */
